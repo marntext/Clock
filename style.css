@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Digital-7";
+    src: url("./FONT/digital-7.ttf") format("truetype");
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+#my-clock {
+    height: 100px;
+    width: 270px;
+    color: #d4af37;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Digital-7;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#container {
+    height: 100px;
+    width: 270px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 120px auto 0;
+}
